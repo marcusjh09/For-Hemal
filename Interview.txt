@@ -15,7 +15,7 @@ for (int i=0; i<str.length(); i++){
   return sum;
 }  
 }
-
+--------------------------------------------------------------------------------------------------
 /* Find the missing number in array
 *This took a bit of research for the most efficient way
 *Here we must take advantage of a math equation (Arithmetic Sum Series)
@@ -31,6 +31,10 @@ for (int i=0; i<str.length(); i++){
    int missingNum = ((arr.length + 1) * arr.length / 2) - sum;
   
   //print missingNum
+  
+  
+---------------------------------------------------------------------------------------------------
+
 
   /*Dependancy Injection:
   * I researched and watched videos about the usefulness of this concept on an enterprise level
@@ -41,4 +45,16 @@ for (int i=0; i<str.length(); i++){
   * It is a principle that states code should only depend upon abstractions
   */
     
+----------------------------------------------------------------------------------------------------
+
+/* How is hashig actually done?
+* Although I could anser what a hashmap does/is, I could not answer how it was done, fully.
+* Hashing has 3 parts to it: hash function, Hash value, and Hash bucket
+* Hash function is hashCode that returns the integer value
+* Hash value is the the value in which is returned by the hash function
+* Hash bucket is used to store the key value pairs and is constructed by linked list
+* Something I left out while for this when discussing, is that the hashmap is highly efficient for large sets of data.
+* It provides us with a constant time of O(1) when retrieving values since it is not an iterative object.
+*/
+
 
